@@ -1,5 +1,10 @@
 {
+  "name": "nodejs-master-class",
+  "version": 2,
+  "builds": [
+    {"src":"index.js", "use": "@now/node-server"}
+  ],
   "routes": [
-    {"src":"/index.js","dest":"/index.js"}
+    {"src":"/(.*)","dest":"/index.js"}
   ]
 }
