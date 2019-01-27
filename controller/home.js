@@ -1,6 +1,6 @@
 function home(){
   this.index = function (requestData, res){
-    res.end("Home");
+    res.end("Home page");
   }
 }
 
